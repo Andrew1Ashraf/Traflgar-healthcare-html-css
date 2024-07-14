@@ -152,13 +152,14 @@ header
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 100px;
     
 }
 
-.top-section .healthcare-img
+.top-section .healthcare
 {
-   margin-inline-start: 12%;
+    width: 36%;
 }
 
 .top-section .healthcare h1
@@ -332,6 +333,7 @@ header
     line-height: 56px;
     position: relative;
     margin-bottom: 64px;
+    width: 80%;
 }
 
 
@@ -381,6 +383,7 @@ header
     line-height: 56px;
     position: relative;
     margin-bottom: 64px;
+    width: 65%;
 }
 
 .download-app h2::after
